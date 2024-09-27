@@ -4,22 +4,26 @@ const NavBarContainer = styled.nav`
 height: 100%;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: stretch;
 `
 
 const Menu = styled.ul`
 display: flex;
+align-items: stretch;
+justify-content: space-between;
+height: 100%;
 `
 
 const Button = styled.li`
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 100% 10px;
+height: 100%;
+padding: 0px 10px;
 list-style: none;
 font-size: 32px;
 font-weight: bold;
-height: 100%;
+
 &:hover{
     background-color: #fff;
     color: #06C7F2;
