@@ -7,7 +7,6 @@ display: flex;
 background-color: #000;
 color: #fff;
 padding: 0 20px;
-margin: 0;
 height: 100px;
 align-items: center;
 justify-content: center;
@@ -25,7 +24,7 @@ border: none;
     background-color: #FF0000;
 }
 `
-const Frame3 = styled.div`
+const Frame1 = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -36,7 +35,11 @@ const SearchBar = styled.input`
 margin: 20px;
 height: 40px;
 width: 300px;
-border-radius: 100px;
+border-radius: 50px;
+padding-left: 10px;
+&:focus{
+    outline: none;
+}
 `
 
 const LogoContainer = styled.h1`
@@ -52,10 +55,10 @@ function Header(){
         <HeaderContainer>
             <LogoContainer>LOGO</LogoContainer>
             <NavBar/>
-            <Frame3>
+            <Frame1>
                 <SearchBar type="text" class="text-box" placeholder="Buscar..." />
                 <ButtonDoar>DOAR</ButtonDoar>
-            </Frame3>
+            </Frame1>
         </HeaderContainer>
     );
 }

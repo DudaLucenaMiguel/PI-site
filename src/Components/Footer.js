@@ -20,7 +20,7 @@ margin-bottom: 50px;
 const Frame1_1 = styled.div`
 font-size: 36px;
 font-weight: bold;
-margin-bottom: 20px;
+margin-bottom: 50px;
 `
 const Frame1_2 = styled.div`
 display: flex;
@@ -28,7 +28,7 @@ justify-content: space-between;
 align-items: center;
 width: 800px;
 padding: 10px;
-margin-bottom: 20px;
+margin-bottom: 50px;
 border-radius:15px;
 border: 0.5px solid #fff;
 `
@@ -41,6 +41,7 @@ font-size: 22px;
 align-items: stretch;
 height: 50px;
 width: 40%;
+
 &:focus{
     outline: none;
 }
@@ -53,6 +54,8 @@ color: #fff;
 font-size: 22px;
 height: 50px;
 width: 40%;
+padding-left: 10px;
+border-left: 0.5px solid #fff;
 &:focus{
     outline: none;
 }
