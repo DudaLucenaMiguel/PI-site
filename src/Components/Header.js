@@ -10,6 +10,10 @@ padding: 0 20px;
 height: 100px;
 align-items: center;
 justify-content: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
 `
 const ButtonDoar = styled.button`
 height: 45px;

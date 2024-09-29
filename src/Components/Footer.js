@@ -168,14 +168,14 @@ function Footer(){
                     <InscrevaseBotton>Inscreva-se</InscrevaseBotton>
                 </Frame1_2>
                 <Fram1_3>
-                    <Facebook_Botton>Facebook</Facebook_Botton>
-                    <Instagram_Botton>Instagram</Instagram_Botton>
-                    <X_Botton>X</X_Botton>
+                    <Facebook_Botton href="#">Facebook</Facebook_Botton>
+                    <Instagram_Botton href="#">Instagram</Instagram_Botton>
+                    <X_Botton href="#">X</X_Botton>
                 </Fram1_3>
             </Frame1>
             <Frame2>
                     <LOGO>LOGO</LOGO>
-                    <LogoFECAP>LOGO FECAP</LogoFECAP>
+                    <LogoFECAP href="#">LOGO FECAP</LogoFECAP>
                     <Frame2_1>
                         <a>nosso contato:</a>
                         <a>0800 4002-8922</a>

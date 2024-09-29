@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const NoticiasContainer = styled.div`
+const MancheteContainer = styled.div`
 display: inline-block;
 padding: 20px;
 //background-color: red;
@@ -49,9 +49,9 @@ font-size: 12px;
 color: #6C6C6C;
 `
 
-function Noticias({imagem, info, titulo, lead}){
+function Manchete({imagem, info, titulo, lead}){
     return(
-        <NoticiasContainer>
+        <MancheteContainer>
             <Frame1>
                 <Capa className="capa" src = {imagem}></Capa>
             </Frame1>
@@ -66,7 +66,7 @@ function Noticias({imagem, info, titulo, lead}){
                     <p>{lead || "breve resumo da noticia"}</p>
                 </Frame2_3>
             </Frame2>
-        </NoticiasContainer>
+        </MancheteContainer>
     );
 }
-export default Noticias;
+export default Manchete;

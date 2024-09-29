@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Noticias from "./Noticias";
+import Manchete from "./Manchetes";
 
-const BibliotecaDeNoticiasContainer = styled.div`
+const QuadroDeManchetesContainer = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -23,9 +23,9 @@ display: flex;
 justify-content: space-between;
 `
 
-function BibliotecaDeNoticias(){
+function QuadroDeManchetes(){
     return(
-        <BibliotecaDeNoticiasContainer>
+        <QuadroDeManchetesContainer>
             <Frame1>
                <h1>Fique por dentro</h1>
             </Frame1>
@@ -33,32 +33,32 @@ function BibliotecaDeNoticias(){
                 <p>veja mais</p>
             </Frame2>
             <Frame3>
-            <Noticias 
+            <Manchete 
             imagem="https://placehold.co/300x300/000000/FFF" 
             info="info" 
             titulo="Titulo da notícia 1" 
             lead="Aqui vai um breve resumo blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla"
             />
-            <Noticias 
+            <Manchete 
             imagem="https://placehold.co/300x300/000000/FFF" 
             info="info" 
             titulo="Titulo da notícia 2" 
             lead="Aqui vai um breve resumo blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla"
             />
-            <Noticias 
+            <Manchete 
             imagem="https://placehold.co/300x300/000000/FFF" 
             info="info" 
             titulo="Titulo da notícia 3" 
             lead="Aqui vai um breve resumo blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla"
             />
-            <Noticias 
+            <Manchete 
             imagem="https://placehold.co/300x300/000000/FFF" 
             info="info" 
             titulo="Titulo da notícia 4" 
             lead="Aqui vai um breve resumo blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla"
             />
             </Frame3>
-        </BibliotecaDeNoticiasContainer>
+        </QuadroDeManchetesContainer>
     )
 }
-export default  BibliotecaDeNoticias;
+export default QuadroDeManchetes;
