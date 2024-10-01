@@ -18,9 +18,11 @@ justify-content: center;
 margin-bottom: 50px;
 `
 const Frame1_1 = styled.div`
-font-size: 36px;
-font-weight: bold;
-margin-bottom: 50px;
+h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+} 
 `
 const Frame1_2 = styled.div`
 display: flex;
@@ -160,7 +162,7 @@ function Footer(){
         <FooterContainer>
             <Frame1>
                 <Frame1_1>
-                    <a>Inscreva-se no nosso news-letter para ficar por dentro de tudo</a>
+                    <h2>Inscreva-se no nosso news-letter para ficar por dentro de tudo</h2>
                 </Frame1_1>
                 <Frame1_2>
                     <NomeBox type="text" class="text-box" placeholder="Nome" />
@@ -177,7 +179,7 @@ function Footer(){
                     <LOGO>LOGO</LOGO>
                     <LogoFECAP href="#">LOGO FECAP</LogoFECAP>
                     <Frame2_1>
-                        <a>nosso contato:</a>
+                        <h3>nosso contato:</h3>
                         <a>0800 4002-8922</a>
                         <a>contact@aliancaoceana.com.br</a>
                         <a>Av. da Liberdade, 532 - Liberdade, São Paulo - SP, </a>

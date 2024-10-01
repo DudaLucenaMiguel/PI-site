@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 
 const NavBarContainer = styled.nav`
-height: 100%;
+height: 75px;
 display: flex;
 align-items: center;
 justify-content: center;
 //background-color: blue;
 `
 
-const Menu = styled.ul`
+const Menu = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
@@ -17,7 +17,7 @@ height: 100%;
 //background-color: red;
 `
 
-const Button = styled.li`
+const Button = styled.h2`
 display: flex;
 justify-content: center;
 align-items: center;
@@ -27,6 +27,7 @@ list-style: none;
 font-size: 32px;
 font-weight: bold;
 position: relative;
+margin: 0;
 &:hover{
     background-color: #fff;
     color: #06C7F2;
@@ -138,6 +139,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 min-width: 200px;
+p{
+    margin-bottom: 10px;
+}
 `
 const B2_Frame1_1_2_1 = styled.div`
 display: flex;
